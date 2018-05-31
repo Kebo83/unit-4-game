@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystals</title>
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type ="text/jquery" href="assets/javascript/game.js">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+  </head>
+  <body>
+<div id="Crystals">
+    <h1 id="title">Counter of the Crystals Game!</h1>
+
+    <h2> Are you the Counter of the Crystals?</h2>
+  
+    <p>      <b> Rules:<b>
+                <br>
+        You will be given a random at the start of the game.
+        There are four crystals below. By clicking the crystal you will add the designated, but hidden, 
+        value of the crystal to your score.
+        You win the game by matching your total score to the random number provided.
+        You lose the game if your score goes above the random number.
+        At the beginning of each game there will be a new random number and the values of each crystal will change.
+    </p>
+  <div id="match">
+    <h2 id="mch"> This is the number you are trying to match.</h2>
+    <h2 id="MGN"></h2>
+  </div>
+  <div id="current">
+    <h2 id="score"> This is your current score.</h2>
+    <h2 id="currentscore">0</h2>
+  </div> 
+ <div id= "wins_losses">
+       <h2 id ="W_L"> Wins and Losses</h2> 
+        <h2 id="Wins">Wins:&ensp;<span id="W"><span></h2>
+        <h2 id="Losses">Losses:&ensp;<span id="L"><span></h2>
+        
+        
+  </div> 
+    </div> 
+    <br>
+ <div id= "crystalImages">
+   <br>
+    <h1> Click The Crystals Below To Play The Game.</h1> 
+    <img src="assets/images/Zircon.png" class=crystals id="Zircon" alt="December">
+    <img src="assets/images/Emerald.png" class=crystals id="Emerald" alt="May">
+    <img src="assets/images/Aquamarine.png" class=crystals id="Aquamarine" alt="March">
+    <img src="assets/images/Amethyst.png" class=crystals id="Amethyst" alt="February">
+           
+   </div> 
+</div>
+
+<script src="assets/javascript/game.js">
+  
+ </script>   
+    
+  </body>
+</html>
